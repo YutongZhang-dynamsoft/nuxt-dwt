@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-dwt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ncp node_modules/dwt/dist static/dwt && nuxt",
+    "build": "nuxt build && ncp node_modules/dwt/dist static/dwt",
+    "start": "ncp node_modules/dwt/dist static/dwt && nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "dwt": "^16.1.2",
+    "ncp": "^2.0.0",
+    "nuxt": "^2.14.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
